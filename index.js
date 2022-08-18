@@ -9,11 +9,7 @@ function scuberGreetingForFeet(ride){
 }
 
 function ternaryCheckCity(city){
-  if( city === 'NYC'){
-    return 'Ok, sounds good.'
-  } else {
-    return 'No go.'
-  }
+  return city === 'NYC' ? 'Ok, sounds good.':'No go.';
 }
 
 function switchOnCharmFromTip(tip){
@@ -25,7 +21,6 @@ function switchOnCharmFromTip(tip){
       return 'Thank you.';
       break;
     default:
-      return 'Bye.';
-      break;  
+      return 'Bye.';  
   }
 }
